@@ -7,11 +7,7 @@
     ext._getStatus = function() {
         return {status: 2, msg: 'Ready'};
     };
-
-    ext.when = function(input) {
-        return input;
-    };
-
+    
     ext.alert = function(text) {
         alert(text);
     };
@@ -32,7 +28,6 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['h','when %b','when'],
             [' ','alert %s','alert'],
             ['b','confirm %s','confirm'],
             ['r','prompt %s','prompt'],
