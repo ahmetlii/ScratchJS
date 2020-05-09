@@ -35,5 +35,5 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('Extension', descriptor, ext);
+    ScratchExtensions.register('ScratchJS', descriptor, ext);
 })({});
