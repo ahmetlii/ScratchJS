@@ -23,6 +23,12 @@
         } else {
             return output;
         };
+     };
+       
+    ext.log = function(text) {
+        console.log(text);
+        };
+    
     };
 
     // Block and block menu descriptions
@@ -31,8 +37,9 @@
             [' ','alert %s','alert'],
             ['b','confirm %s','confirm'],
             ['r','prompt %s','prompt'],
+            [' ','console.log %s','log'],
         ]
-    };
+ 
 
     // Register the extension
     ScratchExtensions.register('ScratchJS', descriptor, ext);
