@@ -9,7 +9,7 @@
     };
     
     ext.getmessage = function(user) {
-        fetch("https://api.scratch.mit.edu/users/(user)/messages/count").then(res => res.json()).then(json => { const messageCount = json.count; console.log(messageCount); return (messageCount)});
+        fetch("https://api.scratch.mit.edu/users/" + user + "/messages/count").then(res => res.json()).then(json => { const messageCount = json.count; console.log(messageCount); return (messageCount)});
         };
 
     // Block and block menu descriptions
