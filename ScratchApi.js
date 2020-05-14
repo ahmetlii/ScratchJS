@@ -9,7 +9,7 @@
     };
     
     ext.getmessage = function(user) {
-        fetch("https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/users/" + user + "/messages/count").then(res => res.json()).then(json => { const messageCount = json.count; console.log(messageCount); return (messageCount)});
+        fetch("https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/users/" + user + "/messages/count").then(res => res.json()).then(json => { const messageCount = json.count; console.log(messageCount); alert(messageCount);}
         };
 
     // Block and block menu descriptions
