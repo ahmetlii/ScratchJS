@@ -28,7 +28,9 @@
     ext.log = function(text) {
         console.log(text);
         };
-
+     ext.message = function(text) {
+        return msg(text);
+    };
 
     // Block and block menu descriptions
     var descriptor = {
