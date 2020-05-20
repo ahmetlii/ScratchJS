@@ -37,6 +37,7 @@
             ['b','confirm %s','confirm'],
             ['r','prompt %s','prompt'],
             [' ','console.log %s','log'],
+            ['b','message %s','msg'],
         ]
      };
 
